@@ -6,6 +6,6 @@ export class Age {
 
   mercury(){
     let mercAge = this.age / .24;
-    return mercAge;
+    return parseInt(mercAge.toFixed(0));
   }
 };
