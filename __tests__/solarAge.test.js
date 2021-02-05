@@ -26,33 +26,24 @@ describe ('Age', () => {
     expect(earthAge.jupiter()).toEqual(4);
   });
 
-  test('should calculate life expectancy on mercury', () => {
-    expect(earthAge.mercLifeExpect()).toEqual(133);
+  test('should calculate Mercury life expectancy', () => {
+    expect(earthAge.mercLifeExpect()).toEqual(329);
   })
 
-  test('should calculate how many years until person reaches life expectancy', () => {
-    expect(earthAge.mercLifeExpect()).toEqual(133);
+  test('should calculate Venus life expectancy on venus', () => {
+    expect(earthAge.venusLifeExpect()).toEqual(127);
   })
 
-  test('should calculate how many years until person reaches life expectancy on venus', () => {
-    expect(earthAge.venusLifeExpect()).toEqual(51);
+  test('should calculate Mars life expectancy on mars', () => {
+    expect(earthAge.marsLifeExpect()).toEqual(42);
   })
 
-  test('should calculate how many years until person reaches life expectancy on mars', () => {
-    expect(earthAge.marsLifeExpect()).toEqual(17);
-  })
-
-  test('should calculate how many years until person reaches life expectancy on jupiter', () => {
-    expect(earthAge.jupiterLifeExpect()).toEqual(3);
+  test('should calculate Jupiter life expectancy on jupiter', () => {
+    expect(earthAge.jupiterLifeExpect()).toEqual(7);
   })
   
-  let pastLife;
-  beforeEach(() => {
-    pastLife = new Age("Mike", 82, 79);
-  });
-
   test('should calculate how many years past life expectancy a person is on each planet', () => {
-    expect(pastLife.mercPastExpect()).toEqual()
+    expect(earthAge.mercLive()).toEqual(15)
   })
 });
 

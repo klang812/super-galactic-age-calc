@@ -33,4 +33,10 @@ Mars = if (marsLifeExpect > avgLifeExpect)
 Jupiter = if (jupiterLifeExpect > avgLifeExpect)
   return avgLifeExpect - jupiterAge
 
-  
+  if merc.age <= mercLifeExpect
+    return "You have" + (mercLifeExpect - merc.age) + "years to live!"
+
+    else {
+      return "Congratulations! You have lived " + (merc.age - mercLifeExpect) + " years past  your life expectancy!"
+      
+    }
