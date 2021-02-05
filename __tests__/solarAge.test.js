@@ -39,7 +39,7 @@ describe ('Age', () => {
   })
 
   test('should calculate how many years until person reaches life expectancy on mars', () => {
-    expect(earthAge.marsLifeExpect()).toEqual(51);
+    expect(earthAge.marsLifeExpect()).toEqual(17);
   })
 });
 
