@@ -5,7 +5,7 @@ Age constructor
 
 1. This will calculate a persons age comparing Earths to other planets:
 
-Mercury (.24 Earth years) = persons age / .24
+Mercury (.24 Earth years) = earth age / .24
 Venus (.62 Earth years) = persons age / .62
 Mars (1.88 Earth years) = persons age / 1.88
 Jupiter (11.86 Earth years) = persons age / 11.86
@@ -32,3 +32,7 @@ Mars = if (marsLifeExpect > avgLifeExpect)
 
 Jupiter = if (jupiterLifeExpect > avgLifeExpect)
   return avgLifeExpect - jupiterAge
+
+  if solarAge === mercury {
+     return earthAge/.24
+  }
