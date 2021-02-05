@@ -34,8 +34,8 @@ describe ('Age', () => {
     expect(earthAge.mercLifeExpect()).toEqual(133);
   })
 
-  test('should calculate life expectancy on venus', () => {
-    expect(earthAge.venusLifeExpect()).toEqual(133);
+  test('should calculate how many years until person reaches life expectancy on venus', () => {
+    expect(earthAge.venusLifeExpect()).toEqual(100);
   })
 });
 

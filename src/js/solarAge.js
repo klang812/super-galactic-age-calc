@@ -28,7 +28,11 @@ export class Age {
   mercLifeExpect(){
     let mercLife = this.lifeExpect / .24;
     return parseInt(mercLife.toFixed(0) - this.mercury());
-    
-
   }
+
+  venusLifeExpect(){
+    let venusLife = this.lifeExpect / .62;
+    return parseInt(venusLife.toFixed(0) - this.venus());
+  }
+
 }
