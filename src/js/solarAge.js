@@ -1,6 +1,11 @@
 export class Age {
-  constructor(age) {
+  constructor(age, lifeExpect) {
     this.age = age;
+    this.lifeExpect = lifeExpect;
   }
-}
 
+  mercury(){
+    let mercAge = this.age / .24;
+    return mercAge;
+  }
+};
