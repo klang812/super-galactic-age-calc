@@ -43,7 +43,7 @@ describe ('Age', () => {
   })
 
   test('should calculate how many years until person reaches life expectancy on jupiter', () => {
-    expect(earthAge.jupiterLifeExpect()).toEqual(17);
+    expect(earthAge.jupiterLifeExpect()).toEqual(3);
   })
 });
 
