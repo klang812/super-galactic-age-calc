@@ -19,7 +19,7 @@ describe ('Age', () => {
   });
 
   test('should calculate person age on Mars', () => {
-    expect(earthAge.mars()).toEqual(47);
+    expect(earthAge.mars()).toEqual(25);
   });
 
 
