@@ -23,7 +23,7 @@ describe ('Age', () => {
   });
 
   test('should calculate person age on Jupiter', () => {
-    expect(earthAge.jupiter()).toEqual(4);
+    expect(earthAge.jupiter()).toEqual(47);
   });
 
 });
