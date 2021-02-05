@@ -13,13 +13,13 @@ Jupiter (11.86 Earth years) = persons age / 11.86
 2. Calculate life expectancy each person has left on each planet based on overall average of all humans in US:
 currently 78 years 
 
-mercuryLifeExpect = (78 / .24) - persons age
-venusLifeExpect = (78 / .62) - persons age
-marsLifeExpect = (78 / 1.88) - persons age
-jupiterLifeExpect = (78 / 11.86) - persons age
+mercuryLifeExpect = (78 / .24) 
+venusLifeExpect = (78 / .62)  
+marsLifeExpect = (78 / 1.88) 
+jupiterLifeExpect = (78 / 11.86)
 
 
-3. Calculate how many years person has lived beyond life expectancy
+3. Calculate how many years person has to live/lived beyond life expectancy
 
 Mercury = if (mercuryLifeExpect > avgLifeExpect)
   return avgLifeExpect - mercuryAge
@@ -38,5 +38,5 @@ Jupiter = if (jupiterLifeExpect > avgLifeExpect)
 
     else {
       return "Congratulations! You have lived " + (merc.age - mercLifeExpect) + " years past  your life expectancy!"
-      
+
     }
