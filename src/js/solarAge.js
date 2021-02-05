@@ -8,4 +8,7 @@ export class Age {
     let mercAge = this.age / .24;
     return parseInt(mercAge.toFixed(0));
   }
+
+
+  
 };
