@@ -15,7 +15,7 @@ describe ('Age', () => {
   });
   
   test('should calculate person age on Venus', () => {
-    expect(earthAge.venus()).toEqual(47);
+    expect(earthAge.venus()).toEqual(76);
   });
 
 });
