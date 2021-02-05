@@ -45,5 +45,10 @@ export class Age {
     return parseInt(jupiterLife.toFixed(0));
   }
 
-  
+  mercLive(){
+      let lifeToLive = this.mercLifeExpect() - this.mercury();
+      return lifeToLive;
+    
+    
+  }  
 }
