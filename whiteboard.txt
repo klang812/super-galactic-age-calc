@@ -1,0 +1,22 @@
+Calculate Solar Age
+
+This will calculate a persons age comparing Earths to other planets:
+
+Mercury (.24 Earth years) = persons age / .24
+Venus (.62 Earth years) = persons age / .62
+Mars (1.88 Earth years) = persons age / 1.88
+Jupiter (11.86 Earth years) = persons age / 11.86
+
+Calculate life expectancy each person has left on each planet based on overall average of all humans in US:
+currently 78 years 
+
+Mercury = (78 / .24) - persons age
+Venus = (78 / .62) - persons age
+Mars = (78 / 1.88) - persons age
+Jupiter = (78 / 11.86) - persons age
+
+
+Calculate how many years person has lived beyond life expectancy
+
+Mercury = if (mercuryLifeExpect > avgLifeExpect)
+  return avgLifeExpect - mercuryAge
