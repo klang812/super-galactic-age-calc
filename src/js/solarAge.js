@@ -25,4 +25,9 @@ export class Age {
     return parseInt(jupiterAge.toFixed(0));
   }
 
-  
+  mercLifeExpect(){
+    let mercLife = this.lifeExpect / .24;
+    return parseInt(mercLife.toFixed(0));
+
+  }
+}

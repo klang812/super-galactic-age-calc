@@ -27,7 +27,7 @@ describe ('Age', () => {
   });
 
   test('should calculate life expectancy on mercury', () => {
-    expect(earthAge.mercLifeExpect()).toEqual(325)
+    expect(earthAge.mercLifeExpect()).toEqual(47)
 
   })
 
