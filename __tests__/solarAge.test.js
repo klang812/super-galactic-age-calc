@@ -31,7 +31,7 @@ describe ('Age', () => {
   })
 
   test('should calculate how many years until person reaches life expectancy', () => {
-    expect(earthAge.mercLifeExpect()).toEqual(47);
+    expect(earthAge.mercLifeExpect()).toEqual(133);
   })
 
 });
