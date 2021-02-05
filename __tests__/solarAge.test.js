@@ -7,12 +7,13 @@ describe ('Age', () => {
   });
 
   test('should construct object with properties entered', () => {
-    expect(personAge.age).toEqual(47);
+    expect(earthAge.age).toEqual(47);
   });
 
-  test('should calculate person age on Mercury')
-  let personAge = solarAge();  
-  expect(solarAge()).toEqual(personAge)
+  test('should calculate person age on Mercury', () => {
+    expect(earthAge.mercury()).toEqual(195);
+  });
+  
   
 });
 
