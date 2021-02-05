@@ -9,6 +9,9 @@ export class Age {
     return parseInt(mercAge.toFixed(0));
   }
 
+  venus(){
+    let venusAge = this.age / .62;
+    return parseInt(venusAge.toFixed(0));
+  }
 
-  
 };
