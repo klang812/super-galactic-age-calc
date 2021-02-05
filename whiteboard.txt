@@ -33,6 +33,4 @@ Mars = if (marsLifeExpect > avgLifeExpect)
 Jupiter = if (jupiterLifeExpect > avgLifeExpect)
   return avgLifeExpect - jupiterAge
 
-  if solarAge === mercury {
-     return earthAge/.24
-  }
+  

@@ -3,7 +3,7 @@ import { Age } from '../src/js/solarAge';
 describe ('Age', () => {
   let earthAge;
   beforeEach(() => {
-    earthAge = new Age(47, 79);
+    earthAge = new Age("Kerry", 47, 79);
   });
 
   test('should construct object with properties entered', () => {
@@ -25,6 +25,11 @@ describe ('Age', () => {
   test('should calculate person age on Jupiter', () => {
     expect(earthAge.jupiter()).toEqual(4);
   });
+
+  test('should calculate life expectancy on mercury', () => {
+    expect(earthAge.mercLifeExpect()).toEqual(325)
+
+  })
 
 });
 

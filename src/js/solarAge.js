@@ -1,5 +1,6 @@
 export class Age {
-  constructor(age, lifeExpect) {
+  constructor(name, age, lifeExpect) {
+    this.name = name;
     this.age = age;
     this.lifeExpect = lifeExpect;
   }
@@ -24,4 +25,4 @@ export class Age {
     return parseInt(jupiterAge.toFixed(0));
   }
 
-};
+  
