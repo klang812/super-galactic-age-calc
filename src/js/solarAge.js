@@ -35,4 +35,9 @@ export class Age {
     return parseInt(venusLife.toFixed(0) - this.venus());
   }
 
+  marsLifeExpect(){
+    let marsLife = this.lifeExpect / .62;
+    return parseInt(marsLife.toFixed(0) - this.mars());
+  }
+
 }
