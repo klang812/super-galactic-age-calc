@@ -22,6 +22,9 @@ describe ('Age', () => {
     expect(earthAge.mars()).toEqual(25);
   });
 
+  test('should calculate person age on Jupiter', () => {
+    expect(earthAge.jupiter()).toEqual(4);
+  });
 
 });
 
