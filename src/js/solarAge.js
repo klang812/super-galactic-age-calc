@@ -27,7 +27,7 @@ export class Age {
 
   mercLifeExpect(){
     let mercLife = this.lifeExpect / .24;
-    return parseInt(mercLife.toFixed(0));
+    return parseInt(mercLife.toFixed(0) - this.mercury());
     
 
   }

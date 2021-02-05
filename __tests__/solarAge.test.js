@@ -27,11 +27,11 @@ describe ('Age', () => {
   });
 
   test('should calculate life expectancy on mercury', () => {
-    expect(earthAge.mercLifeExpect()).toEqual(329);
+    expect(earthAge.mercLifeExpect()).toEqual(133);
   })
 
   test('should calculate how many years until person reaches life expectancy', () => {
-    expect(earthAge.mercLifeExpect()).toEqual(133);
+    expect(earthAge.mercLifeExpect()).toEqual(47);
   })
 
 });
