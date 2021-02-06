@@ -42,10 +42,14 @@ describe ('Age', () => {
     expect(earthAge.jupiterLifeExpect()).toEqual(7);
   })
   
-  test('should calculate how many years past life expectancy a person is on each planet', () => {
+  test('should calculate how many years a person has left on each planet', () => {
     expect(earthAge.mercLive()).toEqual("Kerry, you have 133 years to live on Mercury!")
   })
 
+  test('should calculate how many years a person has left on each planet', () => {
+    expect(earthAge.venusLive()).toEqual("Kerry, you have 51 years to live on Venus!")
+  })
+  
   let newAge;
   beforeEach(() => {
     newAge = new Age("Mike", 82, 79);

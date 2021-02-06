@@ -59,4 +59,19 @@ export class Age {
     
   
   }  
+  venusLive(){
+    let age = this.venus();
+    let life = this.venusLifeExpect();
+    let name = this.name;
+    if (age <= life) {  
+    let lifeToLive = life - age;
+      return `${name}, you have ${lifeToLive} years to live on Venus!`;
+    } else {
+      return lifeToLive; 
+    
+    }
+    
+  
+  }  
+  
 }
