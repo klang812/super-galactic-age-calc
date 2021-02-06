@@ -54,7 +54,7 @@ export class Age {
       return `${name}, you have ${lifeToLive} years to live on Mercury!`;
     } else {
       let pastLife = age - life;
-      return pastLife;
+      return `${name}, you have lived ${pastLife} years past your life expectancy!`;
     }
     
   

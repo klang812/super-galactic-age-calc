@@ -52,7 +52,7 @@ describe ('Age', () => {
   });
 
   test('should calculate how many years past life expectancy', () => {
-    expect(newAge.mercLive()).toEqual("Mike, you have lived 13 years past your life expectancy!")
+    expect(newAge.mercLive()).toEqual("Mike, you have lived 10 years past your life expectancy!")
   })
 
 
