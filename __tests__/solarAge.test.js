@@ -43,7 +43,16 @@ describe ('Age', () => {
   })
   
   test('should calculate how many years past life expectancy a person is on each planet', () => {
-    expect(earthAge.mercLive()).toEqual(15)
+    expect(earthAge.mercLive()).toEqual(133)
+  })
+
+  let newAge;
+  beforeEach(() => {
+    newAge = new Age("Mike", 82, 79);
+  });
+
+  test('should calculate how many years past life expectancy', () => {
+    expect(newAge.mercLive()).toEqual(15)
   })
 });
 

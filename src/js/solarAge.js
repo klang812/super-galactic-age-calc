@@ -46,8 +46,12 @@ export class Age {
   }
 
   mercLive(){
-      let lifeToLive = this.mercLifeExpect() - this.mercury();
+    let age = this.mercury();
+    let life = this.mercLifeExpect();
+      
+    let lifeToLive = life - age;
       return lifeToLive;
+    
     
     
   }  
