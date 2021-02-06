@@ -51,7 +51,7 @@ export class Age {
     let name = this.name;
     if (age <= life) {  
     let lifeToLive = life - age;
-      return lifeToLive;
+      return `${name}, you have ${lifeToLive} years to live on Mercury!`;
     } else {
       let pastLife = age - life;
       return pastLife;
