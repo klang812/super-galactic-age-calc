@@ -43,7 +43,7 @@ describe ('Age', () => {
   })
   
   test('should calculate how many years past life expectancy a person is on each planet', () => {
-    expect(earthAge.mercLive()).toEqual("Kerry, you have 13 years to live on Mercury")
+    expect(earthAge.mercLive()).toEqual("Kerry, you have 133 years to live on Mercury!")
   })
 
   let newAge;
