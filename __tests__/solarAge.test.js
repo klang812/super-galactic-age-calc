@@ -49,7 +49,10 @@ describe ('Age', () => {
   test('should calculate how many years a person has left on each planet', () => {
     expect(earthAge.venusLive()).toEqual("Kerry, you have 51 years to live on Venus!")
   })
-  
+
+  test('should calculate how many years a person has left on each planet', () => {
+    expect(earthAge.marsLive()).toEqual("Kerry, you have 51 years to live on Mars!")
+  })  
   
 
   let newAge;
