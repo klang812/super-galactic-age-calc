@@ -67,5 +67,9 @@ describe ('Age', () => {
   test('should calculate how many years past life expectancy', () => {
     expect(newAge.venusLive()).toEqual("Mike, you have lived 5 years past your life expectancy on Venus!")
   })
+
+  test('should calculate how many years past life expectancy', () => {
+    expect(newAge.marsLive()).toEqual("Mike, you have lived 5 years past your life expectancy on Mars!")
+  })
 });
 
