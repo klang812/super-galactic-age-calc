@@ -85,6 +85,13 @@ export class Age {
     }
   }  
   
+  jupiterLive(){
+    let age = this.mars();
+    let life = this.marsLifeExpect();
+    
+    let lifeToLive = life - age
+      return lifeToLive;
+    }
+  }
   
 
-}
