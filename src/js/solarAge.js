@@ -88,12 +88,13 @@ export class Age {
   jupiterLive(){
     let age = this.jupiter();
     let life = this.jupiterLifeExpect();
+    let name = this.name;
     if (age <= life) {
       let lifeToLive = life - age;
-      return lifeToLive;
+      return `${name}, you have ${lifeToLive} years to live on Jupiter!`;
     } else {
       let pastLife = age - life;
-      return pastLife;
+      return `${name}, you have lived ${pastLife} years past your life expectancy on Jupiter!`;
     }  
   }
 }

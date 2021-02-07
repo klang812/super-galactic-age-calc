@@ -55,7 +55,7 @@ describe ('Age', () => {
   })  
 
   test('should calculate how many years a person has left on each planet', () => {
-    expect(earthAge.jupiterLive()).toEqual(3)
+    expect(earthAge.jupiterLive()).toEqual("Kerry, you have 3 years to live on Jupiter!")
   })  
 
   
@@ -79,7 +79,7 @@ describe ('Age', () => {
   })
 
   test('should calculate how many years past life expectancy', () => {
-    expect(newAge.jupiterLive()).toEqual(1)
+    expect(newAge.jupiterLive()).toEqual("Mike, you have lived 1 years past your life expectancy on Jupiter!")
   })
 });
 
