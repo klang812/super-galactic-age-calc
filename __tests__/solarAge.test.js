@@ -79,7 +79,7 @@ describe ('Age', () => {
   })
 
   test('should calculate how many years past life expectancy', () => {
-    expect(newAge.jupiterLive()).toEqual("Mike, you have lived 2 years past your life expectancy on Jupiter!")
+    expect(newAge.jupiterLive()).toEqual(1)
   })
 });
 
