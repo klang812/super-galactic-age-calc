@@ -50,15 +50,19 @@ describe ('Age', () => {
     expect(earthAge.venusLive()).toEqual("Kerry, you have 51 years to live on Venus!")
   })
   
+  
+
   let newAge;
   beforeEach(() => {
     newAge = new Age("Mike", 82, 79);
   });
 
   test('should calculate how many years past life expectancy', () => {
-    expect(newAge.mercLive()).toEqual("Mike, you have lived 13 years past your life expectancy!")
+    expect(newAge.mercLive()).toEqual("Mike, you have lived 13 years past your life expectancy on Mercury!")
   })
 
-
+  test('should calculate how many years past life expectancy', () => {
+    expect(newAge.venusLive()).toEqual("Mike, you have lived 13 years past your life expectancy on Venus!")
+  })
 });
 
