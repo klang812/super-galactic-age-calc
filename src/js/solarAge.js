@@ -72,8 +72,19 @@ export class Age {
     }
   }  
 
+  marsLive(){
+    let age = this.mars();
+    let life = this.marsLifeExpect();
+    let name = this.name;
+    if (age <= life) {  
+    let lifeToLive = life - age;
+      return `${name}, you have ${lifeToLive} years to live on Mars!`;
+    } else {
+      let pastLife = age - life;
+      return `${name}, you have lived ${pastLife} years past your life expectancy on Mars!`;
+    }
+  }  
   
   
-
 
 }
