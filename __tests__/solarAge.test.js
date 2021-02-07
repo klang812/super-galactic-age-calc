@@ -63,19 +63,19 @@ describe ('Age', () => {
 
   let newAge;
   beforeEach(() => {
-    newAge = new Age("Mike", 82, 79);
+    newAge = new Age("Mike", 90, 79);
   });
 
   test('should calculate how many years past life expectancy', () => {
-    expect(newAge.mercLive()).toEqual("Mike, you have lived 13 years past your life expectancy on Mercury!")
+    expect(newAge.mercLive()).toEqual("Mike, you have lived 46 years past your life expectancy on Mercury!")
   })
 
   test('should calculate how many years past life expectancy', () => {
-    expect(newAge.venusLive()).toEqual("Mike, you have lived 5 years past your life expectancy on Venus!")
+    expect(newAge.venusLive()).toEqual("Mike, you have lived 18 years past your life expectancy on Venus!")
   })
 
   test('should calculate how many years past life expectancy', () => {
-    expect(newAge.marsLive()).toEqual("Mike, you have lived 2 years past your life expectancy on Mars!")
+    expect(newAge.marsLive()).toEqual("Mike, you have lived 6 years past your life expectancy on Mars!")
   })
 
   test('should calculate how many years past life expectancy', () => {
